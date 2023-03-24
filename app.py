@@ -10,7 +10,7 @@ def index():
     return 'Hello, CodeStream!'
 
 @app.route('/mathError')
-def index():
+def mathError():
     return 20/0
 
 app.run(host='0.0.0.0', port=81)
