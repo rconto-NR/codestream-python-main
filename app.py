@@ -1,5 +1,5 @@
 import newrelic.agent
-newrelic.agent.initialize()
+newrelic.agent.initialize('./newrelic.ini')
 
 from flask import Flask
 
